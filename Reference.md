@@ -1,6 +1,8 @@
 libsfn reference
 ================
 
+Which side will store received files?
+
 Connect and disconnect
 ----------------------
 
