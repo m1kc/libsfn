@@ -1,8 +1,6 @@
 libsfn reference
 ================
 
-Which side will store received files?
-
 Connect and disconnect
 ----------------------
 
@@ -34,6 +32,7 @@ Listeners:
   Append files listener (array of: file name, file size, MD5)
   Remove files listener (array of: file name, MD5)
   Accept file listener (file name, MD5, boolean Accept/Deny - may be, no such space)
+  Transfer status (file name, MD5, processed bytes, rate)
 
 
 Send messages and other optional stuff
