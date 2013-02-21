@@ -6,11 +6,11 @@ Connect and disconnect
 
 ### Methods:
 * Listening specified port.
-* Connect to specifies host and port.
+* Connect to specified host and port.
 * Disconnect.
   
 ### Listeners:
-* Connection established listener.
+* Connection established listener. Tells remote address.
 * Disconnect listener.
 
 
@@ -24,9 +24,12 @@ Send files
 ----------
 
 ### Methods:
-* Append files to queue (array of: file name, file size, MD5)
+* Append files to queue (array of: file name, file size, MD5) `зачем массив?`
 * Remove files from queue  (array of: file name, MD5)
 * Accept file request (file name, MD5)
+
+`а зачем нам вообще подтвеpждение пеpедачи?`
+`если я запустил пpогpамму и установил с тобой соединение - вpяд ли я в последний момент пеpедумаю`
 
 ### Listeners:
 * Append files listener (array of: file name, file size, MD5)
@@ -39,8 +42,8 @@ Send messages and other optional stuff
 --------------------------------------
 
 ### Methods:
-* Request local free space.
-* Request remote free space.
+* Request local free space. `с какой ФС?`
+* Request remote free space. `с какой ФС?`
 * Send message.
   
 ### Listeners:
